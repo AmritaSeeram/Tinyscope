@@ -28,13 +28,6 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Deploy to GitHub Pages
-
-1. Create a new GitHub repo and upload these files (or `git push` them).
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
-4. After a minute your site is live at `https://<your-username>.github.io/<repo-name>/`. Paste that link at the top of this README.
-
 ## Limits (and what I'd build next)
 
 - Features are hashed words and letter trios, not a pretrained language model, so it learns surface patterns from your examples rather than meaning. That makes it fast and fully transparent, and it is also why it needs a handful of examples per idea.
