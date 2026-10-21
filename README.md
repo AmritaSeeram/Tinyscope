@@ -12,6 +12,7 @@ Teach a tiny text classifier with your own sentences and watch it learn, live, i
 - **See why.** Each word is shaded by how strongly it pushed the answer toward one idea.
 - **Break it.** The "what if a word were missing?" list shows which single word flips the answer.
 
+
 ## How it works
 
 1. **Features.** Each sentence becomes a 512-dimension vector of hashed word features plus hashed letter-trio features (so unseen words still carry some signal), then L2-normalized.
