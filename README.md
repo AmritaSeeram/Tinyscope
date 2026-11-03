@@ -2,7 +2,6 @@
 
 Teach a tiny text classifier with your own sentences and watch it learn, live, in your browser.
 
-**Live demo:** _add your GitHub Pages link here after you deploy_
 
 ## What it does
 
